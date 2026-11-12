@@ -18,10 +18,10 @@ import texts
 import keyboards as kb
 import sheets
 
-VK_TOKEN = os.getenv("VK_GROUP_TOKEN", "")
-VK_GROUP_ID = int(os.getenv("VK_GROUP_ID", "0"))
-ADMIN_VK_ID = int(os.getenv("ADMIN_VK_ID", "0"))
-HOLD_MIN = int(os.getenv("HOLD_MINUTES", "15"))
+VK_TOKEN = "vk1.a.K2cZ6jiZlmPAzA5fsS3BOkcgLVoVFie_r57v-zAbNP8P7WZx0VQJNjYDvJOXMEAD-ZFW4_hRRfIwBmw2aJGLl2OyYebU_K-AwM_e35cfxYMNLIVxmRzqmczdNZw2rbN-wOwbGhzQJBMYPAnOyUcNXlK59z71pwbRcGL2M9Tm20iK0SXOKJjWR1qdZ4swJor1c5V2tzcODCp1LClT_BISFA"
+VK_GROUP_ID = 174223604
+ADMIN_VK_ID = 151189113
+HOLD_MIN = 15
 
 if not VK_TOKEN:
     raise RuntimeError("VK_GROUP_TOKEN не задан в env")
